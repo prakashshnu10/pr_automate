@@ -1,0 +1,10 @@
+Code Analysis:
+The given code is a static method `majority_element` within the `MajorityElement` class. This method takes a list `v` as input and aims to find the majority element in the list, i.e., an element that appears more than n/2 times, where n is the size of the list.
+
+Analysis:
+- The code iterates through each element in the list `v` and, for each element, counts its frequency in the list using a nested loop.
+- After counting the frequency of each element, it checks if the count is greater than n/2 and returns the element if it is, otherwise, it returns -1.
+
+Insights and Suggestions:
+1. Time complexity: The current time complexity of the `majority_element` method is O(n^2), where n is the size of the input list `v`. This is due to the nested loop used to count the frequency of each element.
+2. Space complexity: The space complexity of the code
